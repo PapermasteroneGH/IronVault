@@ -1,0 +1,27 @@
+.navbar {
+    display: fixed;
+    background-color:rgb(31, 19, 66);
+    height: 100px;
+    width: 100%;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+.navbar > div {
+    display: inline-block;
+    background-color:rgb(19, 7, 54);
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.navbar > div > a {
+    position: absolute;
+    color: rgb(45, 39, 112);
+    font-family: bahnschrift;
+    font-size: 15pt;
+    
+}

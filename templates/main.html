@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            IronVault - Homepage
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <div class="navbar">
+            <div><a href="{{ url_for('home')}}">Home</a></div>
+            <div><a href="{{ url_for('about')}}">Abouts</a></div>
+            <div><a href="{{ url_for('dashboard')}}">Dashboard</a></div>
+        </div>
+        <section>
+            <h1>welcome to</h1>
+            <h1>IronVaults</h1>
+            <div class="">
+            </div>
+        </section>
+        <section>
+            <p>we are a group of developers working to improve your security in the internet world</p>
+        </section>
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>
